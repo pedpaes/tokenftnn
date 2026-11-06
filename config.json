@@ -1,0 +1,94 @@
+{
+  "game": {
+    "window_title": "Fortnite",
+    "log_path": "%LOCALAPPDATA%\\FortniteGame\\Saved\\Logs\\FortniteGame.log",
+    "ref_width": 1920,
+    "ref_height": 1080
+  },
+  "ui": {
+    "play_tab": [
+      265,
+      68
+    ],
+    "play_button": [
+      265,
+      938
+    ],
+    "suspend_continue": [
+      960,
+      496
+    ],
+    "claim_button": [
+      965,
+      992
+    ],
+    "leave_match_confirm": [
+      0,
+      0
+    ]
+  },
+  "detection": {
+    "downscale_width": 1280,
+    "inner_scales": [
+      60,
+      75,
+      95,
+      120,
+      150,
+      190,
+      240,
+      300,
+      380,
+      480,
+      600
+    ],
+    "frame_scales": [
+      100,
+      125,
+      155,
+      195,
+      245,
+      305,
+      380
+    ],
+    "inner_score": 0.62,
+    "inner_score_small": 0.62,
+    "inner_small_width": 100,
+    "frame_score": 0.7,
+    "gold_min": 0.65,
+    "white_min_inner": 0.2,
+    "white_min_inner_small": 0.2,
+    "white_max_inner": 0.8,
+    "white_max_inner_small": 0.8,
+    "gold_min_inner_small": 0.6,
+    "white_min_frame": 0.08,
+    "play_score": 0.8,
+    "suspend_score": 0.8,
+    "exit_icon_score": 0.6,
+    "return_lobby_score": 0.65,
+    "play_again_score": 0.65,
+    "voltar_lobby_score": 0.62,
+    "menu_tab_score": 0.75
+  },
+  "behavior": {
+    "scan_interval_match": 1.6,
+    "scan_interval_postmatch": 1.2,
+    "focus_interval": 20.0,
+    "ready_delay": 3.0,
+    "matchmaking_timeout": 240.0,
+    "postmatch_click_after": 8.0,
+    "postmatch_click_retry": 6.0,
+    "postmatch_menu_after": 14.0,
+    "postmatch_timeout": 180.0,
+    "claim_timeout": 20.0,
+    "claim_scan_interval": 1.0,
+    "squad_leave_delay": 10.0,
+    "squad_leave_retry": 20.0,
+    "squad_leave_max_attempts": 3,
+    "max_matches": 0,
+    "max_runtime_minutes": 0,
+    "auto_close_success_seconds": 30,
+    "dry_run": false,
+    "background_mode": true
+  }
+}
